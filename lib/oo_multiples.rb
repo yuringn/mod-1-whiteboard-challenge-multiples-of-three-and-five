@@ -1,9 +1,8 @@
 class Multiples
-  attr_reader :limit, :start, :multiples
+  attr_reader :limit, :multiples
 
   def initialize(limit)
     @limit = limit - 1
-    @start = 1
     @multiples = collect_multiples
   end
 
